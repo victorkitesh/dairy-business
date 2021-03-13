@@ -33,5 +33,8 @@ header.style.color="blue"
 
 
 
-
+function income(){
+    document.write("<h1>income over time</h1>")
+}
+income();
 
