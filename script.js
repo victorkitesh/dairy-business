@@ -61,59 +61,62 @@ function recored (){
 recored();
  
 function recodinaleapyear (){
-    var monthwith31days=84420*31
-    var monthwith30days =84420*31
-    var leapmonth =84420*29
+    var incomedaily =590940/7;
+    var daily =incomedaily;
+    var monthwith31days=daily*31;
+    var monthwith30days =daily*30;
+    var leapmonth =daily*29;
+
     var year ={
         name:2021,
        month:[
             {
            name:"January",
-           amount:434654656,
+           amount:monthwith31days,
             },
             {
                 name:"Febuary",
-                amount:9786765,
+                amount:leapmonth,
                  },
                     {
                  name:"March",
-                 amount:9786765,
+                 amount:monthwith31days,
                   },
                   {
                  name:"April",
-                amount:9786765,
+                amount:monthwith30days,
                      },
                      {
                  name:"May",
-                amount:9786765,
+                amount:monthwith31days,
                          },
                      {
                 name:"June",
-                amount:9786765,
+                amount:monthwith30days,
                      },
                    {
                   name:"July",
-                amount:9786765,
+                amount:monthwith31days,
                     },
                   {
                  name:"August",
-                 amount:9786765,
+                 amount:monthwith31days,
                 },   
                  {
                 name:"September",
-                 amount:9786765,
+                 amount:monthwith30days,
                       },
                  {
                  name:"October",
-                amount:9786765,
+                amount:monthwith31days,
                       }, 
                  {
                   name:"november",
-                 amount:9786765,
+                 amount:monthwith30days,
                        }, 
                        {
                 name:"December",
-                  amount:9786765,
+                  amount:monthwith31days,
                          },                       
                 
        ]
