@@ -44,11 +44,18 @@ function incomeOverTime(){
     var litersweakly=1876*7;
    var totallirets=litersweakly;
      var income =totallirets*45 ;
+     var weeksinayear =52.1;
+     var yearlyincom =income*weeksinayear;
+     
   
     document.write("your weekly income will be ksh "+income);
     document.write("<hr>");
-    document.write("your yearly income will be ksh "+income);
+    document.write("your yearly income will be ksh "+yearlyincom);
     document.write("<hr>");
 }
 incomeOverTime();
 
+function recored (){
+    document.write("<h1> Report of each month in a leap year.</h1>")
+}
+recored()
