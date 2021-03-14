@@ -56,6 +56,95 @@ function incomeOverTime(){
 incomeOverTime();
 
 function recored (){
-    document.write("<h1> Report of each month in a leap year.</h1>")
+    document.write("<h1> Report of each month in a leap year.</h1>");
 }
-recored()
+recored();
+ 
+function recodinaleapyear (){
+    var monthwith31days=84420*31
+    var monthwith30days =84420*31
+    var leapmonth =84420*29
+    var year ={
+        name:2021,
+       month:[
+            {
+           name:"January",
+           amount:434654656,
+            },
+            {
+                name:"Febuary",
+                amount:9786765,
+                 },
+                    {
+                 name:"March",
+                 amount:9786765,
+                  },
+                  {
+                 name:"April",
+                amount:9786765,
+                     },
+                     {
+                 name:"May",
+                amount:9786765,
+                         },
+                     {
+                name:"June",
+                amount:9786765,
+                     },
+                   {
+                  name:"July",
+                amount:9786765,
+                    },
+                  {
+                 name:"August",
+                 amount:9786765,
+                },   
+                 {
+                name:"September",
+                 amount:9786765,
+                      },
+                 {
+                 name:"October",
+                amount:9786765,
+                      }, 
+                 {
+                  name:"november",
+                 amount:9786765,
+                       }, 
+                       {
+                name:"December",
+                  amount:9786765,
+                         },                       
+                
+       ]
+     
+     }
+     document.write("your income for "+ year.month[0].name + " is " +year.month[0].amount) 
+     document.write("<hr>");
+     document.write("your income for "+ year.month[1].name + " is " +year.month[1].amount) 
+     document.write("<hr>");
+     document.write("your income for "+ year.month[2].name + " is " +year.month[2].amount) 
+     document.write("<hr>");
+     document.write("your income for "+ year.month[3].name + " is " +year.month[3].amount) 
+     document.write("<hr>");
+     document.write("your income for "+ year.month[4].name + " is " +year.month[4].amount) 
+     document.write("<hr>");
+     document.write("your income for "+ year.month[5].name + " is " +year.month[5].amount) 
+     document.write("<hr>");
+     document.write("your income for "+ year.month[6].name + " is " +year.month[6].amount) 
+     document.write("<hr>");
+     document.write("your income for "+ year.month[7].name + " is " +year.month[7].amount) 
+     document.write("<hr>");
+     document.write("your income for "+ year.month[8].name + " is " +year.month[8].amount) 
+     document.write("<hr>");
+     document.write("your income for "+ year.month[9].name + " is " +year.month[9].amount) 
+     document.write("<hr>");
+     document.write("your income for "+ year.month[10].name + " is " +year.month[10].amount) 
+     document.write("<hr>");
+     document.write("your income for "+ year.month[11].name + " is " +year.month[11].amount) 
+     document.write("<hr>");
+   
+}
+
+
+recodinaleapyear()
