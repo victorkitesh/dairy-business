@@ -1,20 +1,27 @@
-function liters(shedA){
+function input(){
+    var one=getElementById("first")
+    var two=getElementById("seecond")
+    var three=getElementById("third")
+    var four=getElementById("forth")
+}
 
-    document.writeln("Your production in Shed A "+ shedA +" liters per day");
+function liters(one){
+
+    document.writeln("Your production in Shed A "+ one +" liters per day");
     document.write("<hr>");
     
 };
 
- function secondshed (shedB){
-    document.writeln("Your production in Shed B "+ shedB +" liters per day");
+ function secondshed (two){
+    document.writeln("Your production in Shed B "+ two +" liters per day");
     document.write("<hr>");
 };
-function thirdshed (shedC){
-    document.write("Your production in Shed C "+ shedC +" liters per day");
+function thirdshed (three){
+    document.write("Your production in Shed C "+ three +" liters per day");
     document.write("<hr>");
 };
-function forthshed (shedD){
-    document.write("Your production in Shed D "+ shedD +" liters per day");
+function forthshed (four){
+    document.write("Your production in Shed D "+ four +" liters per day");
     document.write("<hr>");
 };
 function allshed (total){
